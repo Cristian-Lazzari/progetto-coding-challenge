@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  background-image: url("background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+header{
+  text-align: center;
+
+}
+.container{
+  width: 67%;
+  height: 25%;
+  padding: 6%;
+  padding-top: 5%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  border-radius:15px;
+  background-color: #000000A1;
+  position: relative;
+  box-sizing: border-box;
+}
+.logo{
+  display: block;
+  width: 25%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+
+}
+.title{
+  color: #1DDD00;
+  font-weight: 550;
+  font-size: x-large;
+  font-family: 'Lobster', cursive;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+.nav{
+  box-sizing: border-box;
+  width: 100%;
+  height: 20%;
+  margin-bottom: ;
+  margin-top: 3%;
+  background-color: #1DDD00;
+  padding: 1% 1%;
+  align-items: center;
+  position: relative;
+  display: inline-flex;
+  left: 50%;
+  right:  50%;
+  transform: translate(-50%, -50%);
+
+}
+.bottoni{
+    margin: auto;
+    position: relative;
+    display: inline;
+
+}
+
+/* color white */
+main{
+  color: white;
+}
+.scelta{
+  margin-bottom: 3%;
+
+}
+#scelta3{
+  margin-bottom: 0;
+}
+.monopattino{
+  margin-bottom: 1%
+}
+#nomemono{
+  font-size: 130%;
+  font-weight: lighter;
+}
+.indirizzo{
+  font-weight: lighter;
+  font-size: 90%;
+  margin-bottom: 1%;
+}
+
+}
+.stato-di-carica{
+  margin-top: 1%;
+}
+.caricagrafica{
+  background-color: #F5B453;
+  border-radius: 5px;
+  width: 35%;
+  height: 25px;
+  margin-top:0,5%;
+}
+#carica2{
+  background-color: #27C31D;
+  width: 60%;
+}
+#carica3{
+  background-color: #BE4140;
+  width: 15%;
+}
